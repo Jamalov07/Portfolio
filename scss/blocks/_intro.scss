@@ -1,0 +1,58 @@
+.intro {
+  height: auto;
+
+  &-container {
+    height: 600px;
+    background-image: url("../../images/Bitmap.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    .intro__wrapper {
+      position: absolute;
+      display: flex;
+      justify-content: space-between;
+      align-items: start;
+      flex-direction: column;
+      width: 445px;
+      height: 357px;
+      background: #fafafa;
+      bottom: 0px;
+
+      &--title {
+        padding: 56px 55px 0px 0px;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 50px;
+        letter-spacing: -0.446429px;
+        color: #33323d;
+        font-family: "Ibarra Real Nova Regular";
+      }
+
+      .btn {
+        display: flex;
+        background: #203a4c;
+        border:0px;
+
+        &-info {
+          font-family: "Public Sans Regular";
+          width: 152px;
+          font-size: 12px;
+          line-height: 14px;
+          text-align: center;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+          color: #ffffff;
+          padding: 17px 0px;
+        }
+
+        &-img {
+          background: #0000001f;
+          mix-blend-mode: normal;
+          padding: 18px;
+        }
+      }
+    }
+  }
+}
